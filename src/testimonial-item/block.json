@@ -1,3 +1,4 @@
+
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
@@ -11,6 +12,7 @@
   ],
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",
+  "render": "file:./render.php",
   "attributes": {
     "author": {
       "type": "string",
@@ -23,10 +25,6 @@
     "photoId": {
       "type": "number",
       "default": 0
-    },
-    "photoUrl": {
-      "type": "string",
-      "default": ""
     }
   },
   "supports": {
