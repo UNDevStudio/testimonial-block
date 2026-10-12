@@ -1,0 +1,8 @@
+.testimonial-item {
+	box-sizing: border-box;
+}
+
+.testimonial-item img {
+	max-width: 100%;
+	height: auto;
+}

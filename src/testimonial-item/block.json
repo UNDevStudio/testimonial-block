@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "testimonial-block/testimonial-item",
+  "title": "Testimonial",
+  "category": "design",
+  "icon": "format-quote",
+  "description": "A single client testimonial.",
+  "parent": [
+    "testimonial-block/testimonial-grid"
+  ],
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "author": {
+      "type": "string",
+      "default": ""
+    },
+    "quote": {
+      "type": "string",
+      "default": ""
+    },
+    "photoId": {
+      "type": "number",
+      "default": 0
+    },
+    "photoUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  }
+}

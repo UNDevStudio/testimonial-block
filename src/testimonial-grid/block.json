@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "testimonial-block/testimonial-grid",
+  "title": "Testimonial Grid",
+  "category": "design",
+  "icon": "grid-view",
+  "description": "A grid of client testimonials.",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "supports": {
+    "html": false
+  }
+}

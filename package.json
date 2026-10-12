@@ -1,0 +1,13 @@
+{
+  "name": "testimonial-block",
+  "version": "1.0.0",
+  "description": "A Gutenberg testimonials block.",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^35.0.0"
+  }
+}
