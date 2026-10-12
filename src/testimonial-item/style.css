@@ -1,8 +1,24 @@
+
 .testimonial-item {
 	box-sizing: border-box;
+	min-width: 0;
+	overflow-wrap: anywhere;
 }
 
 .testimonial-item img {
+	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.testimonial-item blockquote {
+	margin: 0 0 16px;
+	overflow-wrap: anywhere;
+	line-height: 1.6;
+}
+
+.testimonial-item p {
+	margin: 0;
+	overflow-wrap: anywhere;
+	font-weight: 600;
 }
